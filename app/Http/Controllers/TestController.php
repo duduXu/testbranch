@@ -43,7 +43,7 @@ class TestController extends Controller
     private function checkParams($params)
     {
 
-
+        $a = 1;
         return true;
     }
 
