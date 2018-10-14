@@ -42,30 +42,7 @@ class TestController extends Controller
 
     private function checkParams($params)
     {
-        $app_id = array_get($params, 'app_id');
-        if (Utils::isValidId($app_id) == false) {
-            return false;
-        }
 
-        $user_id = array_get($params, 'user_id');
-        if (empty($user_id) == false && Utils::isValidId($user_id) == false) {
-            return false;
-        }
-
-        $team_buy_user_type = array_get($params, 'team_buy_user_type');
-        if (Utils::isValidNumber($team_buy_user_type) == false) {
-            return false;
-        }
-
-        $team_buy_id = array_get($params, 'team_buy_id');
-        if (Utils::isValidId($team_buy_id) == false) {
-            return false;
-        }
-
-        $team_buy_task_id = array_get($params, 'team_buy_task_id');
-        if (empty($team_buy_task_id) == false && Utils::isValidId($team_buy_task_id) == false) {
-            return false;
-        }
 
         return true;
     }
