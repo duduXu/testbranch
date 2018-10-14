@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="49f2527a-5cc1-4bd3-8e8d-f0caadc3c3ad" name="ssh_test" url="http://localhost">
+        <fileTransfer host="120.78.68.192" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e80cb5a9-2b58-4506-a1a3-c3525d50b889" name="ssh2" url="http://localhost">
+        <fileTransfer host="134.175.39.247" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
